@@ -1,0 +1,78 @@
+.boxnews{
+    padding: 40px 60px;
+    background: #f0f0f0;
+}
+.boxnews .news{
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+}
+.boxnews .news .combo-news{
+    width: 40%;
+}
+.boxnews .news .combo-news .box{
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    background: #fff;
+}
+.boxnews .news .combo-news .box .first{
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    box-shadow: -3px 8px 14px 10px rgba(0,0,0,0.10);
+}
+.boxnews .news .combo-news .box .first .news-image{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.boxnews .news .combo-news .box .first .news-image img{
+    height: 100%;
+    width: 100%;
+}
+.boxnews .news .combo-news .box .first .news-image img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.boxnews .news .combo-news .box .first .news-text h3{
+    font-size: 16px;
+    margin: 10px;
+}
+.boxnews .news .combo-news .box .first .news-text h3:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.boxnews .news .sequence-news{
+    width: 50%;
+}
+.boxnews .news .sequence-news .line{
+    padding: 12px;
+    height: 25%;
+    width: 100%;
+    box-shadow: -3px 8px 14px 10px rgba(0,0,0,0.10);
+    cursor: pointer;
+    background: #fff;
+}
+.boxnews .news .sequence-news .line .news-image{
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+}
+.boxnews .news .sequence-news .line .news-image img{
+    height: 100%;
+    width: 100%;
+}
+.boxnews .news .sequence-news .line .news-image img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.boxnews .news .sequence-news .line .news-text{
+    margin: 10px;
+}
+.boxnews .news .sequence-news .line .news-text p:hover{
+    font-weight: 500;
+    color: #ec4646;
+    text-decoration: underline;
+}

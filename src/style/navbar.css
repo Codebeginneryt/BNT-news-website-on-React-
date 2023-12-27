@@ -1,0 +1,50 @@
+.navbar{
+    padding: 40px 60px;  
+}
+.navbar .navhead{
+    justify-content: space-between;
+}
+.navbar .navhead .logo h1{
+    color:#ec4646;
+    font-weight: 700;
+    font-size: 28px;
+}
+.navbar .navhead .logo img{
+    width: 140px;
+    height: 80px;
+}
+.navbar .navhead .logo span{
+    font-size: 14px;
+    color: black;
+    margin-left: 100px;
+}
+.navbar .navhead .watch button{
+    height: 40px;
+    width: 110px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #ec4646;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.navbar .navitem{
+    text-align: center;
+    margin-top: 30px;
+    padding: 14px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background:#edeeee;
+}
+.navbar .navitem a{
+    text-decoration: none;
+    color: black;
+}
+.navbar .navitem a:hover{
+    border-bottom: 2px solid #ec4646;
+    color: #ec4646;
+    font-weight: 500;
+}
